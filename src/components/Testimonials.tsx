@@ -2,22 +2,22 @@ const notes = [
   {
     quote:
       "She got to the venue before my hairstylist and never once made me feel like a schedule. My skin looked like my skin, just quieter about it.",
-    from: "Amara",
-    context: "Bride, Kensington",
+    from: "Ananya",
+    context: "Bride, South Delhi",
     rotate: "-rotate-1",
   },
   {
     quote:
       "Twelve hour set day, three costume changes, zero touch-ups needed under those lights. That's the whole job, done right.",
-    from: "Danielle R.",
-    context: "1st AD, campaign shoot",
+    from: "Deepika R.",
+    context: "1st AD, Mumbai ad shoot",
     rotate: "rotate-1",
   },
   {
     quote:
       "Asked for a bruise that would read from the back row. Got one that made the front row wince. Exactly the brief.",
-    from: "Tomasz K.",
-    context: "Director, student short",
+    from: "Rohan K.",
+    context: "Director, Pune student short",
     rotate: "-rotate-2",
   },
 ];

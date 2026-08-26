@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="relative mx-auto w-full max-w-[1400px] px-6 pb-14 pt-40 sm:px-10 sm:pb-20">
         <div className="mb-6 flex items-center justify-between">
           <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-bone-dim">
-            Makeup Artist — London
+            Makeup Artist — India
           </span>
           <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-foil">
             No. 001
@@ -38,7 +38,7 @@ export default function Hero() {
 
         <p className="mt-8 max-w-md font-body text-base leading-relaxed text-bone-dim">
           Bridal, editorial, and film makeup — built around your skin, not a
-          filter. Fifteen years behind the chair, from Cotswold weddings to
+          filter. Fifteen years behind the chair, from Udaipur weddings to
           shoot days for print.
         </p>
 

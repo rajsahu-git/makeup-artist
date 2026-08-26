@@ -33,7 +33,7 @@ export default function Booking() {
           <dl className="grid grid-cols-2 gap-x-6 gap-y-8 self-end font-mono text-xs uppercase tracking-widest sm:grid-cols-1">
             <div>
               <dt className="text-foil-dim">Based in</dt>
-              <dd className="mt-2 text-bone-dim">London, UK</dd>
+              <dd className="mt-2 text-bone-dim">Jaipur, India</dd>
             </div>
             <div>
               <dt className="text-foil-dim">Travels for</dt>
@@ -51,7 +51,7 @@ export default function Booking() {
             Marlowe Vance
           </span>
           <span className="font-mono text-[10px] uppercase tracking-widest text-bone-dim/60">
-            © {new Date().getFullYear()} — Makeup artistry, London
+            © {new Date().getFullYear()} — Makeup artistry, India
           </span>
         </div>
       </div>
