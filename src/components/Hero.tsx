@@ -46,7 +46,7 @@ export default function Hero() {
 
         <p className="mt-8 max-w-md font-body text-base leading-relaxed text-bone-dim">
           Bridal, editorial, and film makeup — built around your skin, not a
-          filter. Fifteen years behind the chair, from Udaipur weddings to
+          filter. Four years behind the chair, jaipur weddings to
           shoot days for print.
         </p>
 
