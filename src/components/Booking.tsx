@@ -18,10 +18,10 @@ export default function Booking() {
             <h2 className="max-w-lg font-display text-4xl italic leading-tight text-bone sm:text-5xl">
               Let&rsquo;s talk before the day, not on it.
             </h2>
-            <p className="mt-6 max-w-md font-body text-sm leading-relaxed text-bone-dim">
+            {/* <p className="mt-6 max-w-md font-body text-sm leading-relaxed text-bone-dim">
               Dates fill fastest March through October. Send the details
               below and expect a reply within two days.
-            </p>
+            </p> */}
             <a
               href="mailto:hello@marlowevance.com"
               className="mt-8 inline-block rounded-full bg-foil px-7 py-3 font-mono text-xs uppercase tracking-widest text-ink transition hover:bg-bone"
