@@ -18,13 +18,13 @@ export const categories: { id: Category; label: string; swatch: string }[] = [
 ];
 
 export const work: WorkItem[] = [
-  { id: "bridal-01", title: "Ananya, South Delhi", category: "bridal", code: "No. 01", aspect: "4/5" },
-  { id: "editorial-01", title: "Vogue India test shoot", category: "editorial", code: "No. 02", aspect: "3/4" },
-  { id: "glam-01", title: "Filmfare after-party", category: "glam", code: "No. 03", aspect: "1/1" },
-  { id: "bridal-02", title: "Priya, Udaipur", category: "bridal", code: "No. 04", aspect: "5/4" },
-  { id: "sfx-01", title: "Bruising study, short film", category: "sfx", code: "No. 05", aspect: "4/5" },
-  { id: "editorial-02", title: "Campaign, wet-look skin", category: "editorial", code: "No. 06", aspect: "4/5" },
-  { id: "glam-02", title: "Red carpet, premiere night", category: "glam", code: "No. 07", aspect: "3/4" },
-  { id: "bridal-03", title: "Meera, Kerala backwaters", category: "bridal", code: "No. 08", aspect: "1/1" },
-  { id: "sfx-02", title: "Aging prosthetic, stage", category: "sfx", code: "No. 09", aspect: "5/4" },
+  { id: "bridal-01", title: "Ananya, South Delhi", category: "bridal", code: "No. 01", aspect: "4/5", src: "/work/ananya-south-delhi.jpg" },
+  { id: "editorial-01", title: "Vogue India test shoot", category: "editorial", code: "No. 02", aspect: "3/4", src: "/work/vogue-india-test-shoot.jpg" },
+  { id: "glam-01", title: "Filmfare after-party", category: "glam", code: "No. 03", aspect: "1/1", src: "/work/filmfare-after-party.jpg" },
+  { id: "bridal-02", title: "Priya, Udaipur", category: "bridal", code: "No. 04", aspect: "5/4", src: "/work/priya-udaipur.jpg" },
+  { id: "sfx-01", title: "Bruising study, short film", category: "sfx", code: "No. 05", aspect: "4/5", src: "/work/ASHNNA MAKEOVER.jpg" },
+  { id: "editorial-02", title: "Campaign, wet-look skin", category: "editorial", code: "No. 06", aspect: "4/5", src: "/work/campaign-wet-look-skin.jpg" },
+  { id: "glam-02", title: "Red carpet, premiere night", category: "glam", code: "No. 07", aspect: "3/4", src: "/work/red-carpet-premiere-night.jpg" },
+  { id: "bridal-03", title: "Meera, Kerala backwaters", category: "bridal", code: "No. 08", aspect: "1/1", src: "/work/meera-kerala-backwaters.jpg" },
+  { id: "sfx-02", title: "Aging prosthetic, stage", category: "sfx", code: "No. 09", aspect: "5/4", src: "/work/download (17).jpg" },
 ];

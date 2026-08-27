@@ -18,7 +18,7 @@ export default function Nav() {
           href="#top"
           className="font-display text-lg tracking-tight text-bone"
         >
-          Marlowe Vance
+          Harshita makeoverz
         </a>
 
         <nav className="hidden items-center gap-8 sm:flex">
@@ -31,12 +31,12 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a
+          {/* <a
             href="#book"
             className="rounded-full border border-foil px-4 py-2 font-mono text-xs uppercase tracking-widest text-foil transition hover:bg-foil hover:text-ink"
           >
             Book a date
-          </a>
+          </a> */}
         </nav>
 
         <button
@@ -67,13 +67,13 @@ export default function Nav() {
               {l.label}
             </a>
           ))}
-          <a
+          {/* <a
             href="#book"
             onClick={() => setOpen(false)}
             className="py-4 font-mono text-xs uppercase tracking-widest text-foil"
           >
             Book a date
-          </a>
+          </a> */}
         </nav>
       )}
     </header>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Nav from "@/components/Nav";
 
 export default function Hero() {
@@ -6,15 +7,22 @@ export default function Hero() {
       id="top"
       className="relative flex min-h-full flex-col lg:justify-end overflow-hidden bg-ink-2"
     >
-      {/* Placeholder editorial plate — replace by rendering an <Image src="/work/hero.jpg" fill> here */}
+      <Image
+        src="/work/hero.jpg"
+        alt="Editorial portrait, dramatic lighting"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+      />
       <div
-        className="grain absolute inset-0"
+        className="grain pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(90% 70% at 75% 15%, #c6a15b26 0%, transparent 55%), radial-gradient(80% 60% at 15% 90%, #7a1f2b22 0%, transparent 55%), linear-gradient(180deg, #151210 0%, #0b0a08 100%)",
+            "radial-gradient(90% 70% at 75% 15%, #c6a15b26 0%, transparent 55%), radial-gradient(80% 60% at 15% 90%, #7a1f2b33 0%, transparent 55%), linear-gradient(180deg, #0b0a08b3 0%, #0b0a08cc 100%)",
         }}
       />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-ink/10" />
 
       <Nav />
 
@@ -43,12 +51,12 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-6">
-          <a
+          {/* <a
             href="#book"
             className="rounded-full bg-foil px-7 py-3 font-mono text-xs uppercase tracking-widest text-ink transition hover:bg-bone"
           >
             Book a date
-          </a>
+          </a> */}
           <a
             href="#work"
             className="font-mono text-xs uppercase tracking-widest text-bone-dim underline decoration-foil-dim/50 underline-offset-4 transition hover:text-foil"

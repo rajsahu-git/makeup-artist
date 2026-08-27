@@ -22,7 +22,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Marlowe Vance — Makeup Artist",
+  title: "Harshita — Makeup Artist",
   description:
     "Bridal, editorial, and film makeup artistry. Skin-first application built to hold through the day, the heat, and the camera.",
 };

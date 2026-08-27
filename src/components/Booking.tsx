@@ -32,13 +32,13 @@ export default function Booking() {
 
           <dl className="grid grid-cols-2 gap-x-6 gap-y-8 self-end font-mono text-xs uppercase tracking-widest sm:grid-cols-1">
             <div>
-              <dt className="text-foil-dim">Based in</dt>
-              <dd className="mt-2 text-bone-dim">Jaipur, India</dd>
+              <dt className="text-foil-dim">Location</dt>
+              <dd className="mt-2 text-bone-dim"> Address m..70-71-72/5 shree ram vihar, near by 0141 sport arcade, jagatpura jaipur 302017</dd>
             </div>
-            <div>
+            {/* <div>
               <dt className="text-foil-dim">Travels for</dt>
               <dd className="mt-2 text-bone-dim">Bridal &amp; editorial</dd>
-            </div>
+            </div> */}
             <div>
               <dt className="text-foil-dim">Instagram</dt>
               <dd className="mt-2 text-bone-dim">@marlowevance.mua</dd>
@@ -48,7 +48,7 @@ export default function Booking() {
 
         <div className="mt-24 flex flex-col items-start justify-between gap-4 border-t border-foil-dim/15 pt-8 sm:flex-row sm:items-center">
           <span className="font-display text-base italic text-bone-dim">
-            Marlowe Vance
+            Harshita makeoverz
           </span>
           <span className="font-mono text-[10px] uppercase tracking-widest text-bone-dim/60">
             © {new Date().getFullYear()} — Makeup artistry, India
